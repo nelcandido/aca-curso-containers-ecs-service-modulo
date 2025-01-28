@@ -46,6 +46,7 @@ variable "capabilities" {
 }
 
 variable "scale_type" {
+  type    = string
   default = null
 }
 
